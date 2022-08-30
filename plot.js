@@ -10,8 +10,8 @@ var trace = {
   };
   var data = [trace];
   var layout = {
-    title: "Most Rapidly Growing Cities",
+    title: "Seven Largest Cities by Population",
     xaxis: {title: "City" },
-    yaxis: {title: "Population Growth, 2016-2017"}
+    yaxis: {title: "Population"}
   };
   Plotly.newPlot("bar-plot", data, layout);
